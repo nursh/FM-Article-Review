@@ -28,3 +28,46 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--clr-grey-200);
+  min-height: 100vh;
+  min-height: 100svh;
+  font-family: "Manrope", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+article {
+  max-width: 20.4375rem;
+  background-color: var(--clr-white);
+}
+
+.article-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article-profile img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.article-author p {
+  font-size: var(--txt-2);
+  font-weight: 700;
+  color: var(--clr-grey-900);
+}
+
+.article-author time {
+  font-size: var(--txt-2);
+  font-weight: 500;
+  color: var(--clr-grey-500);
+}
