@@ -1,0 +1,30 @@
+:root {
+  --clr-white: #fff;
+  --clr-grey-900: #48556A;
+  --clr-grey-500: #6E8098;
+  --clr-grey-400: #9DAEC2;
+  --clr-grey-200: #ECF2F8;
+
+  /* Text */
+  --txt-1: 1.25rem;
+  --txt-2: 0.8125rem;
+  --txt-3-spacing: 25%;
+
+  /* Spacing */
+  --spg-0: 0px;
+  --spg-200: 16px;
+  --spg-300: 24px;
+  --spg-400: 32ps;
+  --spg-500: 40px;
+  --spg-600: 48px;
+  --spg-700: 56px;
+  --spg-800: 64px;
+  --spg-1300: 104px;
+  --spg-2000: 160px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
