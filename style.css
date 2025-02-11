@@ -60,6 +60,20 @@ article {
   border-radius: 50%;
 }
 
+h1 {
+  font-size: var(--txt-1);
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--clr-grey-900);
+}
+
+.article-body > p {
+  font-weight: 500;
+  font-size: var(--txt-2);
+  line-height: 1.4;
+  color: var(--clr-grey-500);
+}
+
 .article-author p {
   font-size: var(--txt-2);
   font-weight: 700;
