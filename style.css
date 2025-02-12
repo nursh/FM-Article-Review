@@ -56,6 +56,8 @@ img {
 article {
   max-width: 20.4375rem;
   background-color: var(--clr-white);
+  border-radius: 0.625rem;
+  overflow: hidden;
 }
 
 .article-body {
@@ -64,7 +66,6 @@ article {
 
 .article-profile {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -94,10 +95,15 @@ h1 {
   font-size: var(--txt-2);
   font-weight: 700;
   color: var(--clr-grey-900);
+  margin-left: var(--spg-200);
 }
 
 .article-author .time {
   font-size: var(--txt-2);
   font-weight: 500;
   color: var(--clr-grey-500);
+}
+
+.article-profile .share-icon {
+  margin-left: auto;
 }
