@@ -31,7 +31,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 2rem;
   background-color: var(--clr-grey-200);
   min-height: 100vh;
   min-height: 100svh;
@@ -50,11 +50,10 @@ h1 {
 
 img {
   display: block;
-  width: 100%;
+  /* width: 100%; */
 }
 
 article {
-  max-width: 20.4375rem;
   background-color: var(--clr-white);
   border-radius: 0.625rem;
   overflow: hidden;
@@ -106,4 +105,29 @@ h1 {
 
 .article-profile .share-icon {
   margin-left: auto;
+}
+
+
+@media (min-width: 48rem) {
+  
+  article {
+    max-width: 38rem;
+    display: flex;
+
+  }
+
+  article img {
+    max-width: 18rem;
+  }
+}
+
+@media (min-width: 90rem) {
+  
+  article {
+    max-width: 45.625rem;
+  }
+  
+  article img {
+    /* width: 22rem; */
+  }
 }
