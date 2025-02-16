@@ -58,6 +58,7 @@ article {
   border-radius: 0.625rem;
   overflow: hidden;
   box-shadow: 0 40px 40px -10px rgba(201, 213, 225, 0.50);
+  max-width: 29rem;
 }
 
 .article-body {
