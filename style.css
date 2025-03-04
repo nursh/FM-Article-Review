@@ -59,6 +59,8 @@ article {
   overflow: hidden;
   box-shadow: 0 40px 40px -10px rgba(201, 213, 225, 0.50);
   max-width: 29rem;
+
+  position: relative;
 }
 
 .article-body {
@@ -109,24 +111,28 @@ h1 {
   margin-left: auto;
 }
 
-.article-share {
+.article-share-popup {
   background-color: var(--clr-grey-900);
   display: none;
-  justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  height: 4.75rem;
+  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-.article-share p {
+.article-share-popup p {
   text-transform: uppercase;
   color: var(--clr-grey-400);
   letter-spacing: 0.2rem;
+  margin-right: var(--spg-300);
 }
 
-.article-share .s-icon {
-  fill: white;
-  width: 50px;
-  height: 50px;
+.popup-share-icon {
+  margin-left: auto;
 }
 
 
