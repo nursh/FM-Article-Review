@@ -111,14 +111,22 @@ h1 {
 
 .article-share {
   background-color: var(--clr-grey-900);
-  display: flex;
+  display: none;
   justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
 }
 
 .article-share p {
   text-transform: uppercase;
   color: var(--clr-grey-400);
   letter-spacing: 0.2rem;
+}
+
+.article-share .s-icon {
+  fill: white;
+  width: 50px;
+  height: 50px;
 }
 
 
