@@ -131,6 +131,12 @@ h1 {
   margin-right: var(--spg-300);
 }
 
+.popup-icons {
+  display: flex;
+  gap: var(--spg-200);
+  align-items: center;
+}
+
 .popup-share-icon {
   margin-left: auto;
 }
