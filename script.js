@@ -4,12 +4,17 @@ const articleShare = document.querySelector('.article-share-popup');
 
 if (shareIcon) {
   shareIcon.addEventListener('click', () => {
-    articleShare.style.setProperty('display', 'flex');
+    if (articleShare.style.display === 'flex') {
+      articleShare.style.setProperty('display', 'none');
+    } else {
+      articleShare.style.setProperty('display', 'flex');
+    }
   })
 }
 
 if (popupShareIcon) {
   popupShareIcon.addEventListener('click', () => {
     articleShare.style.setProperty('display', 'none');
+    console.log('clicked me!!!')
   })
 }
