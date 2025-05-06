@@ -15,6 +15,5 @@ if (shareIcon) {
 if (popupShareIcon) {
   popupShareIcon.addEventListener('click', () => {
     articleShare.style.setProperty('display', 'none');
-    console.log('clicked me!!!')
   })
 }

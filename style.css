@@ -1,5 +1,6 @@
 :root {
   --clr-white: #fff;
+  --clr-black: #000;
   --clr-grey-900: #48556A;
   --clr-grey-500: #6E8098;
   --clr-grey-400: #9DAEC2;
@@ -58,7 +59,8 @@ article {
   border-radius: 0.625rem;
   overflow: hidden;
   box-shadow: 0 40px 40px -10px rgba(201, 213, 225, 0.50);
-  max-width: 29rem;
+  min-width: 20rem;
+  /* max-width: 29rem; */
 
   position: relative;
 }
@@ -168,15 +170,17 @@ h1 {
     height: auto;
     position: fixed;
     justify-self: anchor-center;
-    /* display: flex; */
+
     inset: initial;
     bottom: anchor(top);
-    margin-block-end: 2rem;
+    margin-block-end: var(--spg-300);
     border-radius: 10px;
+
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
   }
   
   .article-share-popup::after {
-    content: "";
+    content: " ";
     --tail-position: 50%;
     --tail-height: 12px;
     border-top: var(--tail-height) solid var(--clr-grey-900);
@@ -187,6 +191,7 @@ h1 {
     position: absolute;
     bottom: calc(-1 * var(--tail-height));
     left: calc((var(--tail-position)) - var(--tail-height));
+    
   }
 }
 
