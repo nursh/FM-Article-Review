@@ -169,10 +169,15 @@ h1 {
     position-anchor: --popup;
     height: auto;
     position: fixed;
-    justify-self: anchor-center;
-
     inset: initial;
+    
+    /* Hacky solution for firefox polyfill */
+    --anchor-position: anchor(--popup 0%);
+    --left-position: calc(var(--anchor-position) - 102px);
+
+    left: var(--left-position);
     bottom: anchor(top);
+    justify-self: anchor-center;
     margin-block-end: var(--spg-300);
     border-radius: 10px;
 
