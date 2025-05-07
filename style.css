@@ -41,6 +41,7 @@ body {
   display: grid;
   justify-items: center;
   align-content: center;
+  gap: var(--spg-200) 0;
 }
 
 p,
@@ -59,7 +60,7 @@ article {
   border-radius: 0.625rem;
   overflow: hidden;
   box-shadow: 0 40px 40px -10px rgba(201, 213, 225, 0.50);
-  max-width: clamp(20rem, 70vw, 29rem);
+  max-width: clamp(22rem, 70vw, 29rem);
 
   position: relative;
 }
