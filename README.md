@@ -19,12 +19,12 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ### Screenshot
 
-![Screenshot](./images/screenshot.jpg)
+![Screenshot](./images/screenshot.png)
 
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/nursh/FM-Article-Review?tab=readme-ov-file)
 - [Live Site URL](https://nursh.github.io/FM-Article-Review/#)
 
 ## My process
